@@ -15,5 +15,9 @@ dotnet watch run
 dotnet add package Rabbitmq.Client
 
 # .Net Core Consumer
+dotnet new console --name=RabbitMQ.Consumer
 
+dotnet add package Rabbitmq.Client
+
+dotnet run
 
